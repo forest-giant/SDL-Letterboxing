@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1414875997 source:/home/mihai/Projects/Git/2dgame/SOURCES/assets.cpp
+	"assets.h"
+
+1414875949 /home/mihai/Projects/Git/2dgame/SOURCES/assets.h
+	"base.h"
+	"basics.h"
+	<sstream>
+
+1423921213 /home/mihai/Projects/Git/2dgame/SOURCES/base.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	<iostream>
+	"assets.h"
+
+1423909814 /home/mihai/Projects/Git/2dgame/SOURCES/basics.h
+	<iostream>
+	<sstream>
+	"SDL2/SDL.h"
+	"SDL2/SDL_ttf.h"
+	"SDL2/SDL_image.h"
+	"base.h"
+
+1423908779 source:/home/mihai/Projects/Git/2dgame/SOURCES/base.cpp
+	"base.h"
+	"settings.h"
+	"console.h"
+
+1415999391 /home/mihai/Projects/Git/2dgame/SOURCES/settings.h
+	<fstream>
+
+1423909796 source:/home/mihai/Projects/Git/2dgame/SOURCES/basics.cpp
+	"basics.h"
+	"base.h"
+	"cmath"
+
+1423837952 source:/home/mihai/Projects/Git/2dgame/SOURCES/main.cpp
+	<SDL2/SDL.h>
+	"base.h"
+	"rungame.h"
+	"settings.h"
+
+1399114841 /home/mihai/Projects/Git/2dgame/SOURCES/rungame.h
+	"basics.h"
+
+1423910207 source:/home/mihai/Projects/Git/2dgame/SOURCES/rungame.cpp
+	"rungame.h"
+	"base.h"
+	"basics.h"
+	"console.h"
+
+1416085601 source:/home/mihai/Projects/Git/2dgame/SOURCES/settings.cpp
+	"settings.h"
+
+1423906224 /home/mihai/Projects/Git/2dgame/SOURCES/console.h
+	"base.h"
+	"basics.h"
+
+1423909558 source:/home/mihai/Projects/Git/2dgame/SOURCES/console.cpp
+	"console.h"
+
